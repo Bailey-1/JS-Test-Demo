@@ -18,11 +18,11 @@ describe.each([
       expect(mathsLib.add(2, 4)).toBe(6);
     });
 
-    test('sub 7-3 to equal 4', () => {
+    test('subtracts 7-3 to equal 4', () => {
       expect(mathsLib.sub(7, 3)).toBe(4);
     });
 
-    test('adds 10-8 to equal 2', () => {
+    test('subtracts 10-8 to equal 2', () => {
       expect(mathsLib.sub(10, 8)).toBe(2);
     });
   });
